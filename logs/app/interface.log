@@ -1,0 +1,56 @@
+2016-08-02 10:01:04,386| INFO| InterfaceLogTest|[main]| {Type}|{2}|{3}|{4}|43ff5b17-fba8-4659-af1e-db690a7435c0|REQUEST||DDS|ODM|
+getDocuments
+2016-08-02 10:01:04,390| INFO| InterfaceLogTest|[main]| {Type}|{2}|{3}|{4}|43ff5b17-fba8-4659-af1e-db690a7435c0|RESPONSE|SUCCESS|ODM|DDS|
+getDocuments
+2016-08-02 10:15:29,136| INFO| InterfaceLogTest|[main]| 76276b2d-d022-4d84-988d-7c13dcc1a7b6|REQUEST||DDS|ODM|getDocuments|||||{}|{}|
+{}
+2016-08-02 10:15:29,139| INFO| InterfaceLogTest|[main]| 76276b2d-d022-4d84-988d-7c13dcc1a7b6|RESPONSE|SUCCESS|ODM|DDS|getDocuments|10||||{}|{}|
+{}
+2016-08-02 10:16:30,070| INFO| InterfaceLogTest|[main]| test.InterfaceLogTest|main|27|16fa0a24-e300-4d17-a502-b632332cb8ab|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:16:30,072| INFO| InterfaceLogTest|[main]| 16fa0a24-e300-4d17-a502-b632332cb8ab|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9||||{}|{}|
+{}
+2016-08-02 10:21:17,141| INFO| InterfaceLogTest|[main]| test.InterfaceLogTest|main|Line Number: 27|3ede9bfb-0415-40c1-b521-594550288af1|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:21:17,145| INFO| InterfaceLogTest|[main]| 3ede9bfb-0415-40c1-b521-594550288af1|RESPONSE|Line Number: SUCCESS|ODM|DDS|getDocuments|10||||{}|{}|
+{}
+2016-08-02 10:25:27,149| INFO| InterfaceLogger|[main]| test.InterfaceLogTest|main|Line Number: 27|062c567f-4437-4fbf-8be5-ba93e480c1cd|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:25:27,151| INFO| InterfaceLogger|[main]| 062c567f-4437-4fbf-8be5-ba93e480c1cd|RESPONSE|SUCCESS|ODM|DDS|getDocuments|8|||
+
+2016-08-02 10:35:45,905| INFO| InterfaceLogger|[main]| test.InterfaceLogTest|main|Line Number: 27|beb32a90-1f80-4111-a0d3-6423c9bafd61|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:35:45,907| INFO| InterfaceLogger|[main]| beb32a90-1f80-4111-a0d3-6423c9bafd61|RESPONSE|SUCCESS|ODM|DDS|getDocuments|8|||
+
+2016-08-02 10:41:47,034| INFO| InterfaceLogger|[main]| 1|test.InterfaceLogTest|main|Line Number: 27|7a2132df-5ece-443f-8499-4169fd45a244|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:41:47,036| INFO| InterfaceLogger|[main]| 1|7a2132df-5ece-443f-8499-4169fd45a244|RESPONSE|SUCCESS|ODM|DDS|getDocuments|10|||
+
+2016-08-02 10:42:52,976| INFO| InterfaceLogger|[main]| Thread-1|test.InterfaceLogTest|main|Line Number: 27|31189b86-0b52-42c0-8944-3e1d3511fc42|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:42:52,978| INFO| InterfaceLogger|[main]| Thread-1|31189b86-0b52-42c0-8944-3e1d3511fc42|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9|||
+
+2016-08-02 10:48:14,615| INFO| InterfaceLogger|[main]| Thread-1|test.InterfaceLogTest|main|Line Number: 27|c267e7c6-bad7-4a4d-834a-d4a07dcd0aa4|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:48:14,617| INFO| InterfaceLogger|[main]| Thread-1|c267e7c6-bad7-4a4d-834a-d4a07dcd0aa4|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9|||
+
+2016-08-02 10:56:27,012| INFO| InterfaceLogger|[main]| Thread-1|test.InterfaceLogTest|main|Line Number: 27|cfba63da-8e41-4c01-bf5a-e1cba9eef736|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:56:27,014| INFO| InterfaceLogger|[main]| Thread-1|cfba63da-8e41-4c01-bf5a-e1cba9eef736|RESPONSE|SUCCESS|ODM|DDS|getDocuments|8|||
+
+2016-08-02 10:59:33,522| INFO| InterfaceLogger|[main]| Thread-1|test.InterfaceLogTest|main|Line Number: 27|38f5b5c4-179e-4ebc-809d-5377cd971216|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 10:59:33,524| INFO| InterfaceLogger|[main]| Thread-1|38f5b5c4-179e-4ebc-809d-5377cd971216|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9|||
+
+2016-08-02 11:00:38,077|INFO|InterfaceLogger|Thread-1|test.InterfaceLogTest|main|Line Number: 27|e1df64cf-375d-402c-bc79-181bebfa63c2|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 11:00:38,079|INFO|InterfaceLogger|Thread-1|e1df64cf-375d-402c-bc79-181bebfa63c2|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9|||
+
+2016-08-02 15:36:49,693|INFO|InterfaceLogger|Thread-1|test.InterfaceLogTest|main|Line Number: 26|18e79148-3ebc-4b6f-a9ee-b7fc345a4740|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 15:36:49,695|INFO|InterfaceLogger|Thread-1|18e79148-3ebc-4b6f-a9ee-b7fc345a4740|RESPONSE|SUCCESS|ODM|DDS|getDocuments|0|||
+
+2016-08-02 15:38:05,310|INFO|InterfaceLogger|Thread-1|test.InterfaceLogTest|main|Line Number: 27|910d70f6-2f70-47cf-93ee-5b792ede8163|REQUEST||DDS|ODM|getDocuments||||
+
+2016-08-02 15:38:05,312|INFO|InterfaceLogger|Thread-1|910d70f6-2f70-47cf-93ee-5b792ede8163|RESPONSE|SUCCESS|ODM|DDS|getDocuments|36|||
+

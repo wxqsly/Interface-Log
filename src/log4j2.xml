@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="Log4j2" packages="">
+    <Appenders>
+        <RollingFile name="RollingFileTest" fileName="logs/app/interface.log"
+                     filePattern="logs/app/interface_%d{yyyy-MM-dd}.log.%i">
+            <PatternLayout>
+                <Pattern>%d|%p|%C{1}|%m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="15 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="3"/>
+        </RollingFile>
+
+        <RollingFile name="RollingFileMore" fileName="logsmore/appmore.log"
+                     filePattern="logsmore/app/interface_%d{MM-dd-yyyy}.log.%i">
+            <PatternLayout>
+                <Pattern>%d|%p|%C{1.}|%m %n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="250 MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="personal.nicolas.usapp.logutil.InterfaceLogger" level="INFO" additivity="false">
+            <AppenderRef ref="RollingFileTest"/>
+        </Logger>
+        <Root level="DEBUG">
+            <AppenderRef ref="RollingFileMore"/>
+        </Root>
+    </Loggers>
+</Configuration>

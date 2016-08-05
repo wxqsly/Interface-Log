@@ -1,0 +1,52 @@
+2016-08-02 09:45:36,349| DEBUG| t.InterfaceLogTest| [main]| 803aa027-8e35-45ca-8481-303ff204cc32|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 09:45:36,361| DEBUG| t.InterfaceLogTest| [main]| 803aa027-8e35-45ca-8481-303ff204cc32|RESPONSE|SUCCESS|ODM|DDS|getDocuments|17|||
+TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}
+2016-08-02 09:46:41,008| DEBUG| t.InterfaceLogTest| [main]| f4e61f2a-385f-4ea1-8779-f6a2a6c20759|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 09:46:41,010| DEBUG| t.InterfaceLogTest| [main]| f4e61f2a-385f-4ea1-8779-f6a2a6c20759|RESPONSE|SUCCESS|ODM|DDS|getDocuments|8|||
+TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}
+2016-08-02 09:46:41,010| INFO| t.InterfaceLogTest| [main]| f4e61f2a-385f-4ea1-8779-f6a2a6c20759|RESPONSE|SUCCESS|ODM|DDS|getDocuments|8|||
+
+2016-08-02 09:47:22,596| DEBUG| t.InterfaceLogTest| [main]| ab8d1225-f4e2-4156-baa4-20e4614bf826|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 09:47:22,599| DEBUG| t.InterfaceLogTest| [main]| ab8d1225-f4e2-4156-baa4-20e4614bf826|RESPONSE|SUCCESS|ODM|DDS|getDocuments|13|||
+TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}
+2016-08-02 09:47:22,599| INFO| t.InterfaceLogTest| [main]| ab8d1225-f4e2-4156-baa4-20e4614bf826|RESPONSE|SUCCESS|ODM|DDS|getDocuments|13|||
+
+2016-08-02 10:17:42,849| DEBUG| t.InterfaceLogTest| [main]| test.InterfaceLogTest|main|Line Number: 27|a57d9d70-e76c-451e-9777-88e2fe33f449|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 10:17:42,851| DEBUG| t.InterfaceLogTest| [main]| a57d9d70-e76c-451e-9777-88e2fe33f449|RESPONSE|Line Number: SUCCESS|ODM|DDS|getDocuments|10|||TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}|{}|{}|
+{}
+2016-08-02 10:20:13,449| DEBUG| t.InterfaceLogTest| [main]| test.InterfaceLogTest|main|Line Number: 27|70a28ad4-9504-412e-a298-0fa083ef9766|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 10:20:13,451| DEBUG| t.InterfaceLogTest| [main]| 70a28ad4-9504-412e-a298-0fa083ef9766|RESPONSE|Line Number: SUCCESS|ODM|DDS|getDocuments|10|||TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}|{}|{}|
+{}
+2016-08-02 10:25:53,977| DEBUG| t.InterfaceLogTest| [main]| test.InterfaceLogTest|main|Line Number: 27|da331fd1-2ea2-4d1a-8c96-215df86bb94a|REQUEST||DDS|ODM|getDocuments||||
+TestRequest: 
+{  name: This is a test request for interface log,  pageSize: 10,  conditions: [shipper is in Freeport, STT number is 123456, ]
+}
+2016-08-02 10:25:53,979| DEBUG| t.InterfaceLogTest| [main]| da331fd1-2ea2-4d1a-8c96-215df86bb94a|RESPONSE|SUCCESS|ODM|DDS|getDocuments|9|||
+TestResponse: 
+{  name: Test Response,  pageSize: 10,  results: []
+}
